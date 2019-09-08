@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstApplication {
 
 //maste1
+    //master2
     @RequestMapping("/")
     String index() {
         System.out.println("jiangjianggongping");
