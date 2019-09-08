@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class FirstApplication {
 
-
+//1111
     @RequestMapping("/")
     String index() {
+        System.out.println("jiangjianggongping");
         return "Hello Spring Boot";
     }
     public static void main(String[] args) {
