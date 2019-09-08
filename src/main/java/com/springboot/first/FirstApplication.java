@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstApplication {
 
 //maste1
+    //dev1
     //master2
     @RequestMapping("/")
     String index() {
